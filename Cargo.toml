@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "bootimg",
+    "mkbootimg",
+    "unpackbootimg",
+]

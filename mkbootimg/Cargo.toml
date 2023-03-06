@@ -1,0 +1,10 @@
+[package]
+name = "mkbootimg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.8", features = ["derive"] }
+bootimg = { path = "../bootimg" }
+sha1 = "0.10.5"
+sha2 = "0.10.6"
